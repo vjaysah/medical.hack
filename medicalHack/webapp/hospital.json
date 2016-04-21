@@ -1,0 +1,85 @@
+[{
+	"HospitalName": "Apollo",
+	"Insurance": "LIC",
+	"Distance": "1.2 KM",
+	"ActualCost": "21000",
+	"InsuredMoney": "16000",
+	"FinalCost": "5000"
+}, {
+	"HospitalName": "Apollo",
+	"Insurance": "ALLIANZ",
+	"Distance": "1.2 KM",
+	"ActualCost": "21000",
+	"InsuredMoney": "15000",
+	"FinalCost": "6000"
+}, {
+	"HospitalName": "Apollo",
+	"Insurance": "TATA",
+	"Distance": "1.2 KM",
+	"ActualCost": "21000",
+	"InsuredMoney": "12000",
+	"FinalCost": "9000"
+}, {
+	"HospitalName": "Adarsh",
+	"Insurance": "LIC",
+	"Distance": "0.9 KM",
+	"ActualCost": "25000",
+	"InsuredMoney": "15000",
+	"FinalCost": "10000"
+}, {
+	"HospitalName": "Adarsh",
+	"Insurance": "ALLIANZ",
+	"Distance": "0.9 KM",
+	"ActualCost": "25000",
+	"InsuredMoney": "20000",
+	"FinalCost": "5000"
+}, {
+	"HospitalName": "Adarsh",
+	"Insurance": "TATA",
+	"Distance": "0.9 KM",
+	"ActualCost": "25000",
+	"InsuredMoney": "20000",
+	"FinalCost": "5000"
+}, {
+	"HospitalName": "Manipal",
+	"Insurance": "LIC",
+	"Distance": "4 KM",
+	"ActualCost": "19000",
+	"InsuredMoney": "14000",
+	"FinalCost": "5000"
+}, {
+	"HospitalName": "Manipal",
+	"Insurance": "ALLIANZ",
+	"Distance": "4 KM",
+	"ActualCost": "19000",
+	"InsuredMoney": "9500",
+	"FinalCost": "9500"
+}, {
+	"HospitalName": "Manipal",
+	"Insurance": "TATA",
+	"Distance": "4 KM",
+	"ActualCost": "19000",
+	"InsuredMoney": "10000",
+	"FinalCost": "9000"
+}, {
+	"HospitalName": "Columbia Asia",
+	"Insurance": "LIC",
+	"Distance": "2.5 KM",
+	"ActualCost": "22000",
+	"InsuredMoney": "15000",
+	"FinalCost": "7000"
+}, {
+	"HospitalName": "Columbia Asia",
+	"Insurance": "TATA",
+	"Distance": "2.5 KM",
+	"ActualCost": "22000",
+	"InsuredMoney": "12000",
+	"FinalCost": "10000"
+}, {
+	"HospitalName": "Columbia Asia",
+	"Insurance": "ALLIANZ",
+	"Distance": "2.5 KM",
+	"ActualCost": "22000",
+	"InsuredMoney": "20000",
+	"FinalCost": "2000"
+}]

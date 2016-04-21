@@ -1,0 +1,26 @@
+[{
+	"InsuranceCompany": "Indian Insurance",
+	"Premium": "10000",
+	"TotalCover": "4 lacs",
+	"Benefits": "Life Cover"
+}, {
+	"InsuranceCompany": "LIC Insurance",
+	"Premium": "15000",
+	"TotalCover": "4 lacs",
+	"Benefits": "Life Cover"
+}, {
+	"InsuranceCompany": "AIG Insurance",
+	"Premium": "5000",
+	"TotalCover": "2 lacs",
+	"Benefits": "Nil"
+}, {
+	"InsuranceCompany": "Lombard Insurance",
+	"Premium": "10000",
+	"TotalCover": "4 lacs",
+	"Benefits": "Life Cover"
+}, {
+	"InsuranceCompany": "Allianz Insurance",
+	"Premium": "10000",
+	"TotalCover": "4 lacs",
+	"Benefits": "Life Cover"
+}]

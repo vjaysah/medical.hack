@@ -1,0 +1,50 @@
+[
+	{
+		"Age": "At Birth",
+		"VaccineName": "BCG",
+		"Currency" : "INR",
+		"Price": "10"
+	},
+	{
+		"Age": "At Birth",
+		"VaccineName": "OPV - Zero Dose",
+		"Currency" : "INR",
+		"Price": "70"
+	},
+	{
+		"Age": "At Birth",
+		"VaccineName": "Hep B",
+		"Currency" : "INR",
+		"Price": "100"
+	},
+	{
+		"Age": "6 Weeks - 10 Weeks",
+		"VaccineName": "DPT",
+		"Currency" : "INR",
+		"Price": "3"
+	},
+	{
+		"Age": "14 Weeks",
+		"VaccineName": "Hib - 1",
+		"Currency" : "INR",
+		"Price": "500"
+	},
+	{
+		"Age": "6 Months",
+		"VaccineName": "OPV - 2",
+		"Currency" : "INR",
+		"Price": "70"
+	},
+	{
+		"Age": "9 Months",
+		"VaccineName": "Typhoid 1",
+		"Currency" : "INR",
+		"Price": "290"
+	},
+	{
+		"Age": "12 Months",
+		"VaccineName": "Hepatitis A",
+		"Currency" : "INR",
+		"Price": "1000"
+	}
+]

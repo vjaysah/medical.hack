@@ -1,0 +1,38 @@
+[{
+		"HospitalName": "Angan Vadi",
+		"Insurance": "LIC",
+		"Distance": "0.2 KM",
+		"ActualCost": "2100",
+		"InsuredMoney": "16000",
+		"FinalCost": "Free"
+	}, {
+		"HospitalName": "Apollo",
+		"Insurance": "ALLIANZ",
+		"Distance": "1.2 KM",
+		"ActualCost": "21000",
+		"InsuredMoney": "15000",
+		"FinalCost": "2000"
+	}, {
+		"HospitalName": "Adarsh",
+		"Insurance": "LIC",
+		"Distance": "0.9 KM",
+		"ActualCost": "25000",
+		"InsuredMoney": "15000",
+		"FinalCost": "1500"
+	}, {
+		"HospitalName": "Manipal",
+		"Insurance": "LIC",
+		"Distance": "4 KM",
+		"ActualCost": "19000",
+		"InsuredMoney": "14000",
+		"FinalCost": "1200"
+	}, {
+		"HospitalName": "Columbia Asia",
+		"Insurance": "LIC",
+		"Distance": "2.5 KM",
+		"ActualCost": "22000",
+		"InsuredMoney": "15000",
+		"FinalCost": "1800"
+	}
+
+]
