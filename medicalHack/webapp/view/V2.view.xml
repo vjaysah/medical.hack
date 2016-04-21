@@ -1,0 +1,64 @@
+<mvc:View controllerName="medicalHack.controller.V2" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout"
+	xmlns:layout="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.core="sap.ui.core" xmlns:suite="sap.suite.ui.commons"
+	xmlns:table="sap.ui.table" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page enableScrolling="true" id="mainPage" navButtonPress="goBack" showNavButton="true" title="{i18n&gt;title}" titleLevel="H1">
+				<content>
+					<Bar id="__bar0">
+						<customData>
+							<sap.ui.core:CustomData id="__data2" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<contentLeft>
+							<Text text="Self Diagnosis and Cure"/>
+						</contentLeft>
+						<contentRight>
+							<SegmentedButton class="sapUiSmallMarginBottom" id="langBar" selectedButton="english">
+								<Button id="hindi" press="changeLanguage" text="हिंदी"/>
+								<Button id="english" press="changeLanguage" text="English"/>
+								<Button id="kannada" press="changeLanguage" text="ಕನ್ನಡ"/>
+							</SegmentedButton>
+						</contentRight>
+					</Bar>
+					<l:Grid class="sapUiSmallMarginTop" defaultSpan="L3 M6 S6">
+						<l:content>
+							<ObjectListItem title="Abdominal Pain, Long-term" />
+							<ObjectListItem title="Abdominal Pain, Short-term"/>
+							<ObjectListItem title="Ankle Problems"/>
+							<ObjectListItem title="Chest Pain in Infants"/>
+							<ObjectListItem title="Chest Pain, Acute"/>
+							<ObjectListItem title="Chest Pain, Chronic"/>
+							<ObjectListItem title="Cold and Flu" press="showCold" type="Active"/>
+							<ObjectListItem title="Cough"/>
+							<ObjectListItem title="Diarrhea"/>
+							<ObjectListItem title="Ear Problems"/>
+							<ObjectListItem title="Elimination Problems"/>
+							<ObjectListItem title="Elimination Problems in Infants"/>
+							<ObjectListItem title="Eye Problems"/>
+							<ObjectListItem title="Facial Swelling"/>
+							<ObjectListItem title="Feeding Problems in Infants"/>
+							<ObjectListItem title="Fever"/>
+							<ObjectListItem title="Fever in Infants and Children"/>
+							<ObjectListItem title="Hand/Wrist/Arm Problems"/>
+							<ObjectListItem title="Headaches"/>
+							<ObjectListItem title="Leg Problems"/>
+						</l:content>
+					</l:Grid>
+				</content>
+				<footer>
+					<Bar id="__bar1">
+						<customData>
+							<sap.ui.core:CustomData id="__data3" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<contentRight>
+							<!--<Button press="findCost" text="How much will it cost" type="Emphasized"/>-->
+							<!--<Button press="subscribeUser" text="Subscribe for alerts" type="Emphasized"/>-->
+							<!--<Button icon="sap-icon://print" id="__button2" text="Print" width="100px"/>-->
+						</contentRight>
+						<contentMiddle></contentMiddle>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

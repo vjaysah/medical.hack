@@ -1,0 +1,59 @@
+<mvc:View controllerName="medicalHack.controller.V9" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:layout="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.core="sap.ui.core" xmlns:sap.ui.layout="sap.ui.layout" xmlns:table="sap.ui.table" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page enableScrolling="true" id="mainPage" navButtonPress="goBack" showNavButton="true" title="{i18n&gt;title}" titleLevel="H1">
+				<content>
+					<Bar id="__bar0">
+						<customData>
+							<sap.ui.core:CustomData id="__data2" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<contentLeft>
+							<Text text="Hospital Costs"/>
+						</contentLeft>
+						<contentRight>
+							<SegmentedButton class="sapUiSmallMarginBottom" id="langBar" selectedButton="english">
+								<Button id="hindi" press="changeLanguage" text="हिंदी"/>
+								<Button id="english" press="changeLanguage" text="English"/>
+								<Button id="kannada" press="changeLanguage" text="ಕನ್ನಡ"/>
+							</SegmentedButton>
+						</contentRight>
+					</Bar>
+					<table:Table id="table" rows="{/}" selectionMode="None" visibleRowCount="12">
+						<table:columns>
+							<table:Column width="auto">
+								<Label text="Hospital Name"/>
+								<table:template>
+									<Text text="{HospitalName}"/>
+								</table:template>
+							</table:Column>
+							<table:Column width="auto">
+								<Label text="Final Cost"/>
+								<table:template>
+									<Text text="{FinalCost}"/>
+								</table:template>
+							</table:Column>
+							<table:Column width="auto">
+								<Label text="Distance"/>
+								<table:template>
+									<Text text="{Distance}"/>
+								</table:template>
+							</table:Column>
+						</table:columns>
+					</table:Table>
+				</content>
+				<footer>
+					<Bar id="__bar1">
+						<customData>
+							<sap.ui.core:CustomData id="__data3" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<contentRight>
+							<Button icon="sap-icon://sys-help" id="__button1" text="Help" width="100px"/>
+							<Button activeIcon="sap-icon://message-information" icon="sap-icon://message-information" id="__button0" text="About" width="100px"/>
+						</contentRight>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

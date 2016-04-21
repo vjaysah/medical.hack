@@ -1,0 +1,54 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout" xmlns:layout="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.core="sap.ui.core" xmlns:suite="sap.suite.ui.commons" xmlns:table="sap.ui.table" xmlns="sap.m" controllerName="medicalHack.controller.V4">
+	<App>
+		<pages>
+			<Page enableScrolling="true" id="" navButtonPress="goBack" showNavButton="true" title="{i18n&gt;title}" titleLevel="H1">
+				<content>
+					<Bar id="__bar0">
+						<customData>
+							<sap.ui.core:CustomData id="__data2" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<contentLeft>
+							<Text text="Baby Vaccination Schedule"/>
+						</contentLeft>
+						<contentRight>
+							<SegmentedButton class="sapUiSmallMarginBottom" id="langBar" selectedButton="english">
+								<Button id="hindi" press="changeLanguage" text="हिंदी"/>
+								<Button id="english" press="changeLanguage" text="English"/>
+								<Button id="kannada" press="changeLanguage" text="ಕನ್ನಡ"/>
+							</SegmentedButton>
+						</contentRight>
+					</Bar>
+					<l:Grid class="sapUiSmallMarginTop" defaultSpan="L6 M6 S6">
+						<l:content>
+							<ObjectListItem id="productitem-small-0" intro="At birth" title="BCG and Oral Polio"/>
+							<ObjectListItem id="productitem-small-1" intro="1.5 months" title="Oral Polio and DPT + Hepatitis B"/>
+							<ObjectListItem id="productitem-small-2" intro="2.5 months" title="Oral Polio and DPT + Hepatitis Bs"/>
+							<ObjectListItem id="productitem-small-3" intro="3.5 months" title="Oral Polio and DPT + Hepatitis B"/>
+							<ObjectListItem id="productitem-small-4" intro="9 to 12 months" title="Measles"/>
+							<ObjectListItem id="productitem-small-5" intro="1.5 to 2 years" title="DPT and Oral Polio"/>
+							<ObjectListItem id="productitem-large-0" intro="Upto 5 years" title="DT"/>
+							<ObjectListItem id="productitem-large-1" intro="9,18,24,30 and 36 months" title="Vitamin A"/>
+						</l:content>
+					</l:Grid>
+					<Text text="Generic: Baby should be feeded with Mother's milk"/>
+					<html:br /><Text text="Precautions: Keep away from small movable particals and maintain basic hygiene"/><html:br />
+				</content>
+				<footer>
+					<Bar id="__bar1">
+						<customData>
+							<sap.ui.core:CustomData id="__data3" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<contentRight>
+							<Button text="How much will it cost" press="findCost" type="Emphasized"/>
+						    <Button text="Subscribe for alerts" press="subscribeUser" type="Emphasized"/>
+						    <Button text="Print" width="100px" id="__button2" icon="sap-icon://print"/>
+						</contentRight>
+					<contentMiddle>
+					    
+					</contentMiddle>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

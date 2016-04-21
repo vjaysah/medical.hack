@@ -1,0 +1,271 @@
+<mvc:View controllerName="medicalHack.controller.V8" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:layout="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.core="sap.ui.core" xmlns:sap.ui.layout="sap.ui.layout" xmlns:table="sap.ui.table" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page enableScrolling="true" id="mainPage" navButtonPress="goBack" showNavButton="true" title="{i18n&gt;title}" titleLevel="H1">
+				<content>
+					<Bar id="__bar0">
+						<customData>
+							<sap.ui.core:CustomData id="__data2" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<contentLeft>
+							<Text text="Hospital Costs"/>
+						</contentLeft>
+						<contentRight>
+							<SegmentedButton class="sapUiSmallMarginBottom" id="langBar" selectedButton="english">
+								<Button id="hindi" press="changeLanguage" text="हिंदी"/>
+								<Button id="english" press="changeLanguage" text="English"/>
+								<Button id="kannada" press="changeLanguage" text="ಕನ್ನಡ"/>
+							</SegmentedButton>
+						</contentRight>
+					</Bar>
+					<html:table class="flowchart-table">
+						<html:tbody>
+							<html:tr>
+								<html:th>SYMPTOMS</html:th>
+								<html:td></html:td>
+								<html:th>DIAGNOSIS</html:th>
+								<html:td></html:td>
+								<html:th>SELF-CARE</html:th>
+							</html:tr>
+							<html:tr>
+								<html:td class="direction">Begin Here
+									<!--<html:img src="/etc/designs/familydoctor/images/symptoms/down.jpg"/>-->
+									</html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="info">
+									<html:p>1. Do you have a fever?</html:p>
+								</html:td>
+								<html:td class="direction">
+								   
+									No</html:td>
+								<html:td class="info">
+									<html:p>
+										<html:a href="#6">Go to Question 6.*</html:a>
+									</html:p>
+								</html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="direction">Yes
+									  </html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="info">
+									<html:p>2. Do you have a sore throat and headache--without nasal drainage?</html:p>
+								</html:td>
+								<html:td class="direction">
+								   
+									Yes</html:td>
+								<html:td class="info">
+									<html:p>You may have
+										<html:a href="/familydoctor/en/diseases-conditions/shtml:trep-throat.html">STREP THROAT</html:a>, a bacterial infection.</html:p>
+								</html:td>
+								<html:td class="direction">
+								   </html:td>
+								<html:td class="info">
+									<html:p>See your doctor if the sore throat or fever lasts longer than 48 hours. He or she can do a test to find out if you have strep
+										throat. If you do, your doctor may give you an antibiotic to treat it. You should also get plenty of rest, and drink lots of water. Gargling
+										with warm salt water may help relieve a sore throat.</html:p>
+								</html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="direction">No
+									  </html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="info">
+									<html:p>3. Did your symptoms start suddenly, and do you have a combination of symptoms including muscle aches, chills, a sore throat, runny
+										nose or cough?</html:p>
+								</html:td>
+								<html:td class="direction">
+								   
+									Yes</html:td>
+								<html:td class="info">
+									<html:p>You may have the
+										<html:a href="/familydoctor/en/diseases-conditions/colds-and-the-flu.html">FLU</html:a>.</html:p>
+								</html:td>
+								<html:td class="direction">
+								   </html:td>
+								<html:td class="info">
+									<html:p>Get plenty of rest, and drink lots of fluids. Over-the-counter medicines may relieve some of your symptoms. Your doctor may suggest
+										a prescription medicine that may shorten the course of the flu. Prevent the flu by getting a flu shot each fall.</html:p>
+								</html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="direction">No
+									  </html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="info">
+									<html:p>4. Do you have a persistent cough that brings up yellowish or greenish mucus, wheezing and shortness of breath.</html:p>
+								</html:td>
+								<html:td class="direction">
+								   
+									Yes</html:td>
+								<html:td class="info">
+									<html:p>You may be developing
+										<html:a href="/familydoctor/en/diseases-conditions/acute-bronchitis.html">ACUTE BRONCHITIS</html:a>, an infection of the airways.</html:p>
+								</html:td>
+								<html:td class="direction">
+								   </html:td>
+								<html:td class="info">
+									<html:p>Get plenty of rest, and drink lots of fluids. If you smoke, cut down on the number of cigarettes you smoke, or stop smoking. Use an
+										over-the-counter medicine for pain and fever, and an expectorant to ease the coughing. A humidifier may also relieve some symptoms. If
+										symptoms persist or worsen, contact your doctor.</html:p>
+								</html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="direction">No
+									  </html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="info">
+									<html:p>5. Do you have a headache or muscle aches, nausea or vomiting, and watery diarrhea?</html:p>
+								</html:td>
+								<html:td class="direction">
+								   
+									Yes</html:td>
+								<html:td class="info">
+									<html:p>You may have GASTROENTERITIS (also called the stomach flu).</html:p>
+								</html:td>
+								<html:td class="direction">
+								   </html:td>
+								<html:td class="info">
+									<html:p>Get plenty of rest. Children who have gastroenteritis should be given an oral rehydration solution to avoid dehydration. Ease back
+										into eating with bland foods and clear liquids.</html:p>
+								</html:td>
+							</html:tr>
+							<html:tr>
+								<html:td colspan="5">
+									<html:hr class="horizontalrule"/></html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="info">
+									<html:p>
+										<html:a name="6"></html:a>*6. Do you have a runny and/or itchy nose, sneezing, and itchy eyes?</html:p>
+								</html:td>
+								<html:td class="direction">
+								   
+									Yes</html:td>
+								<html:td class="info">
+									<html:p>You may have
+										<html:a href="/familydoctor/en/diseases-conditions/allergic-rhinitis.html">ALLERGIES</html:a>.</html:p>
+								</html:td>
+								<html:td class="direction">
+								   </html:td>
+								<html:td class="info">
+									<html:p>Try an over-the-counter antihistamine medicine. If symptoms persist or worsen, contact your doctor.</html:p>
+								</html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="direction">No
+									  </html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="info">
+									<html:p>7. Do you have sneezing, a sore throat, headache, congestion and a runny nose?</html:p>
+								</html:td>
+								<html:td class="direction">
+								   
+									Yes</html:td>
+								<html:td class="info">
+									<html:p>You probably have a
+										<html:a href="/familydoctor/en/diseases-conditions/colds-and-the-flu.html">COLD</html:a>.</html:p>
+								</html:td>
+								<html:td class="direction">
+								   </html:td>
+								<html:td class="info">
+									<html:p>Try an over-the-counter cold medicine to treat the specific symptoms you are having. Get plenty of rest, and drink lots of fluid.</html:p>
+								</html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="direction">No
+									  </html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="info">
+									<html:p>8. Do you have swelling or pain around your eyes, cheeks, nose or forehead, a headache, a dry cough, and/or discharge from the nose?</html:p>
+								</html:td>
+								<html:td class="direction">
+								   
+									Yes</html:td>
+								<html:td class="info">
+									<html:p>You may be developing
+										<html:a href="/familydoctor/en/diseases-conditions/sinusitis.html">SINUSITIS</html:a>.</html:p>
+								</html:td>
+								<html:td class="direction">
+								   </html:td>
+								<html:td class="info">
+									<html:p>See your doctor. Acetaminophen, ibuprofen and/or warm compresses may help reduce facial pain. A cool mist vaporizer may help your
+										sinuses drain more easily. Drink plenty of fluids.</html:p>
+								</html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="direction">No
+									  </html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="info">
+									<html:p>For more information, please talk to your doctor. If you think your problem is serious, call right away.</html:p>
+								</html:td>
+								<html:td></html:td>
+								<html:td></html:td>
+								<html:td class="direction">
+								   </html:td>
+								<html:td class="urgent">
+									<html:p>WARNING: Due to the risk of Reye's syndrome, don't give aspirin to children without your doctor's approval.</html:p>
+								</html:td>
+							</html:tr>
+						</html:tbody>
+					</html:table>
+				</content>
+				<footer>
+					<Bar id="__bar1">
+						<customData>
+							<sap.ui.core:CustomData id="__data3" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<contentRight>
+							<Button icon="sap-icon://sys-help" id="__button1" text="Help" width="100px"/>
+							<Button activeIcon="sap-icon://message-information" icon="sap-icon://message-information" id="__button0" text="About" width="100px"/>
+						</contentRight>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

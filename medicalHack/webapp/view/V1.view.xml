@@ -1,0 +1,54 @@
+<mvc:View controllerName="medicalHack.controller.V1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:layout="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.core="sap.ui.core" xmlns:sap.ui.layout="sap.ui.layout" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page enableScrolling="false" id="mainPage" title="Medical Buddy" titleLevel="H1">
+				<content>
+					<Bar id="__bar0">
+						<customData>
+							<sap.ui.core:CustomData id="__data2" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<contentLeft>
+							<Text text="Welcome !"/>
+						</contentLeft>
+						<contentRight>
+							<SegmentedButton class="sapUiSmallMarginBottom" id="langBar"  selectedButton="english">
+								<Button id="hindi" press="changeLanguage" text="हिंदी"/>
+								<Button id="english" press="changeLanguage" text="English"/>
+								<Button id="kannada" press="changeLanguage" text="ಕನ್ನಡ"/>
+							</SegmentedButton>
+						</contentRight>
+					</Bar>
+					<TileContainer allowAdd="true" editable="false" id="__container0">
+						<customData>
+							<sap.ui.core:CustomData id="__data5" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<tiles>
+							<StandardTile activeIcon="sap-icon://customer" icon="sap-icon://customer" id="__tile0" info="Symptoms and Cures" infoState="Success"
+								number="" numberUnit="eur" title="I am not well" press="goToV2"/>
+							<StandardTile activeIcon="sap-icon://electronic-medical-record" icon="sap-icon://electronic-medical-record" id="__tile1"
+								info="Tips And Advises" infoState="Success" number="" numberUnit="" title="I am pregnant" press="goToV3"/>
+							<StandardTile activeIcon="sap-icon://customer" icon="sap-icon://monitor-payments" id="__tile2" info="For your newborn" infoState="Success"
+								number="" numberUnit="" title="I am a mother now" press="goToV4"/>
+							<StandardTile activeIcon="sap-icon://customer" icon="sap-icon://customer" id="__tile3" info="Vaccines ..." infoState="Success" number=""
+								numberUnit="" press="goToV5" title="Mom &amp; Baby" visible="false"/>
+							<StandardTile activeIcon="sap-icon://customer" icon="sap-icon://insurance-life" id="__tile4" info="Get Insured Before its too late"
+								infoState="Success" number="" numberUnit="" press="goToV6" title="Health Insurance" visible="false"/>
+						</tiles>
+					</TileContainer>
+				</content>
+				<footer>
+					<Bar id="__bar1">
+						<customData>
+							<sap.ui.core:CustomData id="__data3" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<contentRight>
+							<Button icon="sap-icon://sys-help" id="__button1" text="Help" width="100px"/>
+							<Button activeIcon="sap-icon://message-information" icon="sap-icon://message-information" id="__button0" text="About" width="100px"/>
+						</contentRight>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

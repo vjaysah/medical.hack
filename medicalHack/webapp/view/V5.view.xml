@@ -1,0 +1,48 @@
+<mvc:View controllerName="medicalHack.controller.V5" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:layout="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.core="sap.ui.core" xmlns:sap.ui.layout="sap.ui.layout" xmlns:table="sap.ui.table" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page enableScrolling="true" id="mainPage" navButtonPress="goBack" showNavButton="true" title="{i18n&gt;title}" titleLevel="H1">
+				<content>
+					<Bar id="__bar0">
+						<customData>
+							<sap.ui.core:CustomData id="__data2" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<contentLeft>
+							<Text text="Mom and baby Vaccination Schedule "/>
+						</contentLeft>
+						<contentRight>
+							<Select>
+								<sap.ui.core:Item key="1" text="English"/>
+								<sap.ui.core:Item key="2" text="हिंदी"/>
+								<sap.ui.core:Item key="3" text="తెలుగు"/>
+								<sap.ui.core:Item key="4" text="ಕನ್ನಡ"/>
+							</Select>
+						</contentRight>
+					</Bar>
+					<ObjectHeader class="sapUiNoMarginTop" id="header" title="" titleActive="false"/>
+					<List id="invoiceList" items="{/}" mode="None">
+						<items>
+							<ObjectListItem iconDensityAware="false" iconInset="false" number="{Price}" numberUnit="{Currency}"  title="{VaccineName}" type="Active" numberState="Success">
+							<attributes>
+								<ObjectAttribute text="Age  : {Age}"/>
+							</attributes>
+							</ObjectListItem>
+						</items>
+					</List>
+				</content>
+				<footer>
+					<Bar id="__bar1">
+						<customData>
+							<sap.ui.core:CustomData id="__data3" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<contentRight>
+							<Button icon="sap-icon://sys-help" id="__button1" text="Help" width="100px"/>
+							<Button activeIcon="sap-icon://message-information" icon="sap-icon://message-information" id="__button0" text="About" width="100px"/>
+						</contentRight>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

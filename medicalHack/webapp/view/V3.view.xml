@@ -1,0 +1,55 @@
+<mvc:View controllerName="medicalHack.controller.V3" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout"
+	xmlns:layout="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.core="sap.ui.core" xmlns:suite="sap.suite.ui.commons"
+	xmlns:table="sap.ui.table" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page enableScrolling="true" id="" navButtonPress="goBack" showNavButton="true" title="{i18n&gt;title}" titleLevel="H1">
+				<content>
+					<Bar id="__bar0">
+						<customData>
+							<sap.ui.core:CustomData id="__data2" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<contentLeft>
+							<Text text="Pregnancy Month Wise Schedule"/>
+						</contentLeft>
+						<contentRight>
+							<SegmentedButton class="sapUiSmallMarginBottom" id="langBar" selectedButton="english">
+								<Button id="hindi" press="changeLanguage" text="हिंदी"/>
+								<Button id="english" press="changeLanguage" text="English"/>
+								<Button id="kannada" press="changeLanguage" text="ಕನ್ನಡ"/>
+							</SegmentedButton>
+						</contentRight>
+					</Bar>
+					<l:Grid class="sapUiSmallMarginTop" defaultSpan="L6 M6 S6">
+						<l:content>
+							<ObjectListItem id="productitem-small-0" intro="Month 2" title="1st Trimester Screening"/>
+							<ObjectListItem id="productitem-small-1" intro="Month 3" title="Blood test, Abdominal test"/>
+							<ObjectListItem id="productitem-small-2" intro="Month 4" title="Amniocentesis test, Down Syndrome"/>
+							<ObjectListItem id="productitem-small-3" intro="Month 5" title="2nd Trimester Screening"/>
+							<ObjectListItem id="productitem-small-4" intro="Month 6" title="Ultrasound, Glucose check"/>
+							<ObjectListItem id="productitem-small-5" intro="Month 7" title="Peranatal test, Gestational Diabetes test"/>
+							<ObjectListItem id="productitem-large-0" intro="Month 8" title="3rd Trimester Screening"/>
+							<ObjectListItem id="productitem-large-1" intro="Month 9" title="Anemia test, Jaundice test"/>
+						</l:content>
+					</l:Grid>
+					<Text text="Medication : Peranatal Vitamins, Minerals like folic acid, zinc, iron &amp; calcium (for entire duration)"/>
+					<html:br/><Text text="Precautions : Exercise, Improve sleeping habits, Hygiene, Eating etc (for entire duration)"/><html:br/>
+				</content>
+				<footer>
+					<Bar id="__bar1">
+						<customData>
+							<sap.ui.core:CustomData id="__data3" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+						</customData>
+						<contentRight>
+							<Button press="findDoc" text="I need a doctor" type="Emphasized"/>
+							<Button press="findCost" text="How much will it cost" type="Emphasized"/>
+							<Button press="subscribeUser" text="Subscribe for alerts" type="Emphasized"/>
+							<Button icon="sap-icon://print" id="__button2" text="Print" width="100px"/>
+						</contentRight>
+						<contentMiddle></contentMiddle>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
