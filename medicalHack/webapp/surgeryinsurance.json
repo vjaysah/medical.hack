@@ -1,0 +1,31 @@
+[{
+"Insuranceplans":"LIC",
+"Totalcover":"100000",
+"Insurancepremium":"12000"
+},
+{
+"Insuranceplans":"NHIS (govt.)",
+"Totalcover":"200000",
+"Insurancepremium":"200"
+},
+{
+"Insuranceplans":"ALLIANZ",
+"Totalcover":"250000",
+"Insurancepremium":"22000"
+},
+{
+"Insuranceplans":"Star Health",
+"Totalcover":"150000",
+"Insurancepremium":"13000"
+},
+{
+"Insuranceplans":"Apollo Munich",
+"Totalcover":"300000",
+"Insurancepremium":"25000"
+},
+{
+"Insuranceplans":"HDFC",
+"Totalcover":"120000",
+"Insurancepremium":"10000"
+}
+]

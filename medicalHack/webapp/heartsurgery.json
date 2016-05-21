@@ -1,0 +1,46 @@
+[{
+	"Hospital": "AIIMS",
+	"Surgerycost": "90000",
+	"UnderGovtplan": "19000",
+	"Distance": "395 kms",
+	"Ratingoutof5": 3,
+	"Doctor": "Dr. Ambuja",
+	"BestmodeofTransport": "Air",
+	"NearestHotel": "Hotel Swagat"
+}, {
+	"Hospital": "NIMHANS",
+	"Surgerycost": "60000",
+	"UnderGovtplan": "13000",
+	"Distance": "32 kms",
+	"Ratingoutof5": 4,
+	"Doctor": "Dr. Ahuja",
+	"BestmodeofTransport": "Bus",
+	"NearestHotel": "Hotel Balaji"
+}, {
+	"Hospital": "KIDWAI",
+	"Surgerycost": "75000",
+	"UnderGovtplan": "17000",
+	"Distance": "12 kms",
+	"Ratingoutof5": 3,
+	"Doctor": "Dr. Vijay",
+	"BestmodeofTransport": "Any local",
+	"NearestHotel": "Hotel Krishna"
+}, {
+	"Hospital": "Apollo",
+	"Surgerycost": "105000",
+	"UnderGovtplan": "45000",
+	"Distance": "109 kms",
+	"Ratingoutof5": 4.5,
+	"Doctor": "Dr. Jagadis",
+	"BestmodeofTransport": "Train",
+	"NearestHotel": "Shyam Lodging"
+}, {
+	"Hospital": "Rama Krishna",
+	"Surgerycost": "120000",
+	"UnderGovtplan": "NA",
+	"Distance": "67 kms",
+	"Ratingoutof5": 4,
+	"Doctor": "Dr. Pallavi",
+	"BestmodeofTransport": "Train",
+	"NearestHotel": "Hotel Shiv"
+}]
