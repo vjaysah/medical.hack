@@ -1,17 +1,30 @@
 /* Enter your custom styles here */
 
-/*.mainPage {*/
-
-/*    background: rgb(214, 249, 255);*/
-
-/*    background: -moz-linear-gradient(top, rgba(214, 249, 255, 1) 0%, rgba(158, 232, 250, 1) 100%);*/
-
-/*    background: -webkit-linear-gradient(top, rgba(214, 249, 255, 1) 0%, rgba(158, 232, 250, 1) 100%);*/
-
-/*    background: linear-gradient(to bottom, rgba(214, 249, 255, 1) 0%, rgba(158, 232, 250, 1) 100%);*/
-
-/*}*/
-
+div.polaroid {
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.center {
+    margin-top : 50px;
+    margin-left : 15%;
+}
+.barClass {
+    background-color: transparent;
+    border: 0px;
+    border-style: none;
+    box-shadow: none;
+}
+div.container {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+}
 .mainPage {
     background-image: url(heartbeat-monitor.jpg);
 }
