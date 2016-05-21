@@ -4,10 +4,22 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function(Controller) {
 	return Controller.extend("medicalHack.controller.V1", {
 		onInit: function() {
 			this.byId("mainPage").addStyleClass("mainPage");
+			this.byId("barId").addStyleClass("barClass");
 			// this.initializeDialog();
 		},
 		getRouter: function() {
 			return sap.ui.core.UIComponent.getRouterFor(this);
+		},
+		handleLinkPress: function() {
+			var oVideo = new sap.ui.core.HTML({
+				content: '<div class="center"><iframe class="ifram" width="854px" height="480px" src="https://www.youtube.com/embed/oNuGu-1uIHI" frameborder="0" allowfullscreen></iframe><div>'
+			});
+			var oOverlayContainer = new sap.ui.ux3.OverlayContainer({
+				content: [oVideo]
+			});
+
+			oOverlayContainer.open();
+
 		},
 		goToV5: function() {
 			this.getRouter().navTo("V5");
