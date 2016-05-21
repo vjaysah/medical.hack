@@ -12,12 +12,21 @@
 							<Text text="Welcome !"/>
 						</contentLeft>
 						<contentRight>
-							<SegmentedButton class="sapUiSmallMarginBottom" id="langBar"  selectedButton="english">
+							<SegmentedButton class="sapUiSmallMarginBottom" id="langBar" selectedButton="english">
 								<Button id="hindi" press="changeLanguage" text="हिंदी"/>
 								<Button id="english" press="changeLanguage" text="English"/>
 								<Button id="kannada" press="changeLanguage" text="ಕನ್ನಡ"/>
 							</SegmentedButton>
 						</contentRight>
+					</Bar>
+					<Bar id="barId">
+						<contentLeft>
+							<html:marquee behavior="scroll" direction="left" style="">
+								<html:p style="color:red;font-weight:bold;">Alert!!! There are lot of Dengue cases reported in your locality. Please
+									<Link text="Click here " press="handleLinkPress"/>
+									and make yourself safe.</html:p>
+							</html:marquee>
+						</contentLeft>
 					</Bar>
 					<TileContainer allowAdd="true" editable="false" id="__container0">
 						<customData>
@@ -30,10 +39,10 @@
 								info="Tips And Advises" infoState="Success" number="" numberUnit="" title="I am pregnant" press="goToV3"/>
 							<StandardTile activeIcon="sap-icon://customer" icon="sap-icon://monitor-payments" id="__tile2" info="For your newborn" infoState="Success"
 								number="" numberUnit="" title="I am a mother now" press="goToV4"/>
-							<StandardTile activeIcon="sap-icon://customer" icon="sap-icon://customer" id="__tile3" info="Vaccines ..." infoState="Success" number=""
-								numberUnit="" press="goToV5" title="Mom &amp; Baby" visible="false"/>
+							<StandardTile activeIcon="sap-icon://customer" icon="sap-icon://customer" id="__tile3" info="Know about Surgeries" infoState="Success"
+								number="" numberUnit="" press="goToV5" title="Major Operations" visible="true"/>
 							<StandardTile activeIcon="sap-icon://customer" icon="sap-icon://insurance-life" id="__tile4" info="Get Insured Before its too late"
-								infoState="Success" number="" numberUnit="" press="goToV6" title="Health Insurance" visible="false"/>
+								infoState="Success" number="" numberUnit="" press="goToV6" title="Health Insurance" visible="true"/>
 						</tiles>
 					</TileContainer>
 				</content>

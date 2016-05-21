@@ -9,27 +9,36 @@
 							<sap.ui.core:CustomData id="__data2" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
 						</customData>
 						<contentLeft>
-							<Text text="Mom and baby Vaccination Schedule "/>
+							<Text text="Major Surgeries"/>
 						</contentLeft>
 						<contentRight>
-							<Select>
-								<sap.ui.core:Item key="1" text="English"/>
-								<sap.ui.core:Item key="2" text="हिंदी"/>
-								<sap.ui.core:Item key="3" text="తెలుగు"/>
-								<sap.ui.core:Item key="4" text="ಕನ್ನಡ"/>
-							</Select>
+							<SegmentedButton class="sapUiSmallMarginBottom" id="langBar" selectedButton="english">
+								<Button id="hindi" press="changeLanguage" text="हिंदी"/>
+								<Button id="english" press="changeLanguage" text="English"/>
+								<Button id="kannada" press="changeLanguage" text="ಕನ್ನಡ"/>
+							</SegmentedButton>
 						</contentRight>
 					</Bar>
-					<ObjectHeader class="sapUiNoMarginTop" id="header" title="" titleActive="false"/>
-					<List id="invoiceList" items="{/}" mode="None">
-						<items>
-							<ObjectListItem iconDensityAware="false" iconInset="false" number="{Price}" numberUnit="{Currency}"  title="{VaccineName}" type="Active" numberState="Success">
-							<attributes>
-								<ObjectAttribute text="Age  : {Age}"/>
-							</attributes>
-							</ObjectListItem>
-						</items>
-					</List>
+					<html:div >
+						<html:div class="polaroid">
+							<Image src="css/kidneys.jpg" densityAware="false" width="300px" press="handleKidneyPress"></Image>
+							<html:div class="container">
+								<html:p>Kidney Stones</html:p>
+							</html:div>
+						</html:div>
+						<html:div class="polaroid">
+							<Image src="css/hearts.jpg" densityAware="false" width="300px" press="handleHeartPress"></Image>
+							<html:div class="container">
+								<html:p>Open Heart Surgery</html:p>
+							</html:div>
+						</html:div>
+						<html:div class="polaroid right">
+							<Image src="css/eye.JPG" densityAware="false" width="300px" press="handleEyePress"></Image>
+							<html:div class="container">
+								<html:p>Eye Cataract</html:p>
+							</html:div>
+						</html:div>
+					</html:div>
 				</content>
 				<footer>
 					<Bar id="__bar1">
